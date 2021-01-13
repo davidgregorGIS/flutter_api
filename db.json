@@ -1,0 +1,84 @@
+{
+    "data":[
+       {
+          "id":1,
+          "slug":"s-albertfalva",
+          "name":"Albertfalva",
+          "cross_section":6998.3,
+          "machines":[
+             {
+                "id":1,
+                "slug":"11-2763",
+                "name":"L1",
+                "type":"person",
+                "nature":"passenger",
+                "platform_description":"Gyalogos aluljáró",
+                "emi":"11-2763",
+                "manufacturer":"Nyírlift Kft.",
+                "commissioning_at":2014,
+                "construction":"BZTH 95/7 - RS - 1x2620",
+                "description":"",
+                "path":"/machines/11-2763"
+             }
+          ]
+       },
+       {
+          "id":2,
+          "slug":"s-budafok-varoshazter",
+          "name":"Budafok városháztér",
+          "cross_section":8772,
+          "machines":[
+             {
+                "id":2,
+                "slug":"22-0509",
+                "name":"L1",
+                "type":"person",
+                "nature":"passenger",
+                "platform_description":"Gyalogos aluljáró",
+                "emi":"22-0509",
+                "manufacturer":"Nyírlift Kft.",
+                "commissioning_at":2014,
+                "construction":"BZTH 95/7 - RS - 1x3020",
+                "description":"",
+                "path":"/machines/22-0509"
+             }
+          ]
+       },
+       {
+          "id":3,
+          "slug":"s-budafok-belvaros",
+          "name":"Budafok belváros",
+          "cross_section":9055.8,
+          "machines":[
+             {
+                "id":4,
+                "slug":"22-0507",
+                "name":"L2",
+                "type":"person",
+                "nature":"passenger",
+                "platform_description":"Gyalogos aluljáró",
+                "emi":"22-0507",
+                "manufacturer":"Nyírlift Kft.",
+                "commissioning_at":2014,
+                "construction":"BZTH 95/7 - RS - 1x2100",
+                "description":"",
+                "path":"/machines/22-0507"
+             },
+             {
+                "id":3,
+                "slug":"22-0508",
+                "name":"L1",
+                "type":"person",
+                "nature":"passenger",
+                "platform_description":"Gyalogos aluljáró",
+                "emi":"22-0508",
+                "manufacturer":"Nyírlift Kft.",
+                "commissioning_at":2014,
+                "construction":"BZTH 95/7 - RS - 1x2330",
+                "description":"",
+                "path":"/machines/22-0508"
+             }
+          ]
+       }
+    ]
+ }
