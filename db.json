@@ -1,84 +1,174 @@
 {
-    "data":[
-       {
-          "id":1,
-          "slug":"s-albertfalva",
-          "name":"Albertfalva",
-          "cross_section":6998.3,
-          "machines":[
-             {
-                "id":1,
-                "slug":"11-2763",
-                "name":"L1",
-                "type":"person",
-                "nature":"passenger",
-                "platform_description":"Gyalogos aluljáró",
-                "emi":"11-2763",
-                "manufacturer":"Nyírlift Kft.",
-                "commissioning_at":2014,
-                "construction":"BZTH 95/7 - RS - 1x2620",
-                "description":"",
-                "path":"/machines/11-2763"
-             }
-          ]
-       },
-       {
-          "id":2,
-          "slug":"s-budafok-varoshazter",
-          "name":"Budafok városháztér",
-          "cross_section":8772,
-          "machines":[
-             {
-                "id":2,
-                "slug":"22-0509",
-                "name":"L1",
-                "type":"person",
-                "nature":"passenger",
-                "platform_description":"Gyalogos aluljáró",
-                "emi":"22-0509",
-                "manufacturer":"Nyírlift Kft.",
-                "commissioning_at":2014,
-                "construction":"BZTH 95/7 - RS - 1x3020",
-                "description":"",
-                "path":"/machines/22-0509"
-             }
-          ]
-       },
-       {
-          "id":3,
-          "slug":"s-budafok-belvaros",
-          "name":"Budafok belváros",
-          "cross_section":9055.8,
-          "machines":[
-             {
-                "id":4,
-                "slug":"22-0507",
-                "name":"L2",
-                "type":"person",
-                "nature":"passenger",
-                "platform_description":"Gyalogos aluljáró",
-                "emi":"22-0507",
-                "manufacturer":"Nyírlift Kft.",
-                "commissioning_at":2014,
-                "construction":"BZTH 95/7 - RS - 1x2100",
-                "description":"",
-                "path":"/machines/22-0507"
-             },
-             {
-                "id":3,
-                "slug":"22-0508",
-                "name":"L1",
-                "type":"person",
-                "nature":"passenger",
-                "platform_description":"Gyalogos aluljáró",
-                "emi":"22-0508",
-                "manufacturer":"Nyírlift Kft.",
-                "commissioning_at":2014,
-                "construction":"BZTH 95/7 - RS - 1x2330",
-                "description":"",
-                "path":"/machines/22-0508"
-             }
-          ]
-       }
+    "data": [
+        {
+            "id": 222,
+            "slug": "202012G70083_gpio01",
+            "name": "Vészhívó",
+            "description": "",
+            "unit": null,
+            "type": "alarm",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 1,
+                "data_point_id": "222",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 405,
+                "readable_value": "Üzemel (1)"
+            },
+            "dataPointReference": {
+                "id": 1,
+                "references": [
+                    "off",
+                    "on"
+                ]
+            }
+        },
+        {
+            "id": 223,
+            "slug": "202012G70083_gpio02",
+            "name": "Hiba",
+            "description": "",
+            "unit": null,
+            "type": "fault-circuit",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 0,
+                "data_point_id": "223",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 406,
+                "readable_value": "Nem üzemel (0)"
+            },
+            "dataPointReference": {
+                "id": 1,
+                "references": [
+                    "off",
+                    "on"
+                ]
+            }
+        },
+        {
+            "id": 224,
+            "slug": "202012G70083_gpio04",
+            "name": "Vízszintjelző",
+            "description": "",
+            "unit": null,
+            "type": "water-sensor",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 9,
+                "data_point_id": "224",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 407,
+                "readable_value": " (9)"
+            },
+            "dataPointReference": {
+                "id": 1,
+                "references": [
+                    "off",
+                    "on"
+                ]
+            }
+        },
+        {
+            "id": 225,
+            "slug": "202012G70083_gpio07",
+            "name": "Menet",
+            "description": "",
+            "unit": null,
+            "type": "machine-up-down",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 9,
+                "data_point_id": "225",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 408,
+                "readable_value": "9"
+            },
+            "dataPointReference": null
+        },
+        {
+            "id": 226,
+            "slug": "202012G70083_gpio12",
+            "name": "Szervízgomb",
+            "description": "",
+            "unit": null,
+            "type": "service",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 1,
+                "data_point_id": "226",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 409,
+                "readable_value": "Üzemel (1)"
+            },
+            "dataPointReference": {
+                "id": 1,
+                "references": [
+                    "off",
+                    "on"
+                ]
+            }
+        },
+        {
+            "id": 227,
+            "slug": "202012G70083_gpio13",
+            "name": "Ajtónyitás",
+            "description": "",
+            "unit": null,
+            "type": "cabinet-sensor",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 5,
+                "data_point_id": "227",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 410,
+                "readable_value": " (5)"
+            },
+            "dataPointReference": {
+                "id": 1,
+                "references": [
+                    "off",
+                    "on"
+                ]
+            }
+        },
+        {
+            "id": 228,
+            "slug": "10-000803b4e427",
+            "name": "Belső hőmérő",
+            "description": "",
+            "unit": "°C",
+            "type": "temperature",
+            "machine_slug": "44-2140",
+            "station_slug": "s-vac",
+            "lastValue": {
+                "processed": true,
+                "value": 17.1,
+                "data_point_id": "228",
+                "updated_at": "2021-01-15T08:38:47.000000Z",
+                "created_at": "2021-01-15T08:38:47.000000Z",
+                "id": 60,
+                "readable_value": "17.1 °C"
+            },
+            "dataPointReference": null
+        }
     ]
- }
+}
